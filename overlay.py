@@ -1,10 +1,8 @@
 import cv2
 
-
 image = cv2.imread("tesla.jpg")
 
 overlay = image.copy()
-text = image.copy()
 output = image.copy()
 
 cv2.rectangle(overlay, (20, 20), (300, 150), (55, 55, 55), -1)
